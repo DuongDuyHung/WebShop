@@ -1,0 +1,35 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore vendor (if using Composer)
+vendor/
+
+# Ignore environment files
+.env
+
+# Ignore uploads (nếu muốn)
+uploads/
+
+# Ignore logs
+*.log
+
+# Ignore IDE/editor settings
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+
+# Ignore node_modules (nếu có frontend JS)
+node_modules/
+
+# Ignore database files
+*.sqlite
+*.sql
+
+# Ignore compiled assets
+/public/build/
+/public/dist/
+
+# Optional: ignore screenshots (nếu không muốn track)
+# Img/
